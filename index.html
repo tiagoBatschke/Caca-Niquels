@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=latin1" />
+		<title>Jogo</title>
+		<link type="text/css" rel="stylesheet" href="reset.css" />
+		<link type="text/css" rel="stylesheet" href="style.css" />
+	</head>
+	
+	<body>
+		<div class="contrainerCreditos">
+			<div class="creditos_txt" id = "creditos_txt">
+				Créditos
+			</div>
+			<input class="inputCreditos" id = "credito" type = "text" size = "5" value = "R$ 0" readonly />
+	
+	
+		</div>
+		<div class=" containerValor">
+			<div class="valor_txt" id = "valor_txt">
+				Valor da Aposta
+			</div>
+			<input class="inputValor" id = "aposta" type = "text" size = "1" value = "R$ 1" readonly />
+			
+		</div>
+		<div class="corpo" id = "corpo">	
+				
+			
+			<div class="telaContainer">
+				<div class="tela" id = "tela">
+					<div  class="slot">
+						<img id = "escud1" src = "img/botafogo.png" />
+					</div>
+					<div  class="slot">
+						<img id = "escud2" src = "img/flamengo.png" />
+					</div>
+					<div  class="slot">
+						<img id = "escud3" src = "img/fluminense.png" />
+					</div>
+					
+				</div>
+				<div class="tela" id = "tela">
+					<div id = "slot1" class="slot">
+						<img id = "escud4" src = "img/botafogo.png" />
+					</div>
+					<div id = "slot2" class="slot">
+						<img id = "escud5" src = "img/flamengo.png" />
+					</div>
+					<div id = "slot3" class="slot">
+						<img id = "escud6" src = "img/fluminense.png" />
+					</div>
+				</div>
+				<div class="tela" id = "tela">
+					<div class="slot" >
+						<img id = "escud7" src = "img/botafogo.png" />
+					</div>
+					<div class="slot">
+						<img id = "escud8" src = "img/flamengo.png" />
+					</div>
+					<div  class="slot">
+						<img id = "escud9" src = "img/fluminense.png" />
+					</div>
+				</div>
+			</div>
+			
+			<div class="botoes" id = "botoes">
+				<button class="buttons" onclick = "apostaMenos();">Aposta -</button>
+				<button class="buttons" onclick = "apostaMais();">Aposta +</button>
+				<button class="buttons" onclick = "jogar();">Jogar</button>
+			
+			</div>
+			
+			<div id = "rodap�">
+				<a href = "tabela.html" target='_blank'>Clique aqui para ver a Tabela de Premios que você poder� ganhar neste jogo!</a>
+			</div>
+			
+		</div>
+		
+		<script type="text/javascript" src="./js/premios.js"></script>
+		<script type="text/javascript" src="./js/main.js"></script>
+	</body>
+	
+	</html>

@@ -145,3 +145,153 @@ a:hover {
 	text-align: center;
 	font-weight: bold;
 }
+
+@media (max-width: 1200px){
+	body {
+		background-color: lightgray;
+	}
+	
+	textarea:focus, input:focus, select:focus {
+		box-shadow: 0 0 0 0;
+		border: 0 none;
+		outline: 0;
+	} 
+	h1 {
+		text-align: center;
+	}
+	
+	a {
+		color: #000000;
+	}
+	
+	a:hover {
+		color: #000000;
+	}
+	
+	.corpo {
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		height: 80vh;
+		background-color: lightblue;
+		padding: 1rem;
+		
+	}
+	
+	#corpo2 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 700px;
+		height: 1050px;
+		background-color: lightblue;
+		border: medium dashed black;
+	}
+	
+	.tela {
+		display: flex;
+		margin-top: 0.5rem;
+		background-color: white;
+		justify-content: space-evenly;
+	}
+	
+	.telaContainer{
+		background-color: #fff;
+		width: 70%;
+		margin-left: 15%;
+		padding: 0.8rem;
+		margin-top: 1rem;
+	}
+	
+	.botoes {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: space-evenly;
+		height: 20vh;
+	}
+	
+	.buttons{
+		font-size: 2rem;
+		width: 50%;
+		margin-left: 25%;
+		border: none;
+		border-radius: 0.5rem;
+		background-color: rgba(0, 0, 255, 0.408);
+		color: #fff;
+		
+	}
+	
+	.contrainerCreditos{
+		display: flex;
+		align-items:center;
+		justify-content: space-evenly;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 1rem;
+		background-color: lightblue;
+		margin-top: 0.5vh;
+		
+	}
+	
+	.containerValor{
+		display: flex;
+		align-items:center;
+		justify-content: space-evenly;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 1rem;
+		background-color: lightblue;
+		
+	}
+	.creditos_txt {
+		margin-left: 80px;
+		font-weight: bold;
+		float: left;
+		font-size: 2rem;
+		width: 30%;
+		text-align: center;
+	}
+	
+	.valor_txt{
+		width: 30%;
+		margin-left: 80px;
+		font-weight: bold;
+		float: left;
+		font-size: 2rem;
+	}
+	
+	.inputCreditos{
+		width: 20% ;
+		background-color: #fff;
+		font-size: 2rem;
+		border: none;
+	}
+	
+	.inputValor{
+		width: 20% ;
+		background-color: #fff;
+		font-size: 2rem;
+		border: none;
+	}
+	
+	.slot {
+		margin-top: 0.5rem;
+		float: left;
+		width: 90px;
+		height: 90px;
+		vertical-align: middle;
+	}
+	
+	#rodap� {
+		margin-left: 113px
+	}
+	
+	#tabela {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		font-weight: bold;
+	}
+}
